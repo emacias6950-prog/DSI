@@ -1,0 +1,29 @@
+:root{
+    --bs-primary:#0d6efd;
+    --bs-secondary:#6c757d;
+    --bs-success:#198754;
+    --bs-danger:#dc3545;
+    --bs-warning:#ffc107;
+    --bs-info:#0dcaf0;
+    --bs-light:#f8f9fa;
+    --bs-dark:#212529;
+}
+
+/*stilo de efecto para una galeria*/
+.img-hover img{
+    transition: transform .3s ease, filter .3s ease;
+}
+
+.img-hover:hover img{
+    transform: scale(1.03);
+    filter: brightness(0.9);
+}
+
+/*jaustes de card pequeñas*/
+.card-title { 
+    letter-spacing: .2px;
+}
+
+footer small {
+    color:#6c757d
+}
